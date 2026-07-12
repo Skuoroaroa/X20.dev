@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\kamis\\Desktop\\Нова папка\\intermediate\\cstrike\\Debug\\cglow.h.obj",
+            "outputs": [
+                "C:\\Users\\kamis\\Desktop\\Нова папка\\intermediate\\cstrike\\Debug\\vc143.pdb",
+                "C:\\Users\\kamis\\Desktop\\Нова папка\\intermediate\\cstrike\\Debug\\",
+                "C:\\Users\\kamis\\Desktop\\Нова папка\\intermediate\\cstrike\\Debug\\cglow.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "sdk\\interfaces\\cglow.h",
+                    "source-path": "c:\\users\\kamis\\desktop\\нова папка\\cstrike\\sdk\\interfaces\\cglow.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

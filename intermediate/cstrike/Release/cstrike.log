@@ -1,0 +1,33 @@
+﻿  features.cpp
+  legit.cpp
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\core\schema.h(12,8): warning C4099: 'CSchemaClassInfo': type name first seen using 'class' now seen using 'struct'
+  (compiling source file 'features/legitbot/legit.cpp')
+      C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\sdk\interfaces\ischemasystem.h(17,7):
+      see declaration of 'CSchemaClassInfo'
+  
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\features\legitbot\legit.cpp(133,62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\features\legitbot\legit.cpp(138,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\features\legitbot\legit.cpp(560,45): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\gui\framework\shell\dx_blur.h(4,9): warning C4005: 'NOMINMAX': macro redefinition
+  (compiling source file 'features.cpp')
+      C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\gui\framework\shell\dx_blur.h(4,9):
+      'NOMINMAX' previously declared on the command line
+  
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\gui\framework\shell\dx_blur.h(18,15): warning C4091: 'inline ': ignored on left of 'ImGui_ImplDX11_Data' when no variable is declared
+  (compiling source file 'features.cpp')
+  
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\gui\framework\shell\dx_blur.h(97,170): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'features.cpp')
+  
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\core\schema.h(12,8): warning C4099: 'CSchemaClassInfo': type name first seen using 'class' now seen using 'struct'
+  (compiling source file 'features.cpp')
+      C:\Users\Raphmaru\Documents\Raphael -- claude\mr\cstrike\sdk\interfaces\ischemasystem.h(17,7):
+      see declaration of 'CSchemaClassInfo'
+  
+C:\Users\Raphmaru\Documents\Raphael -- claude\mr\intermediate\cstrike\Release\misc.obj : warning LNK4042: object specified more than once; extras ignored
+  Generating code
+  32 of 5535 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    18 functions were new in current compilation
+    101 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  cstrike.vcxproj -> C:\Users\Raphmaru\Documents\Raphael -- claude\mr\build\Release\cstrike.dll

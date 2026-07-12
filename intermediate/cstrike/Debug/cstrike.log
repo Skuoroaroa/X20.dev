@@ -1,0 +1,44 @@
+﻿  hooks.cpp
+C:\Users\kamis\Desktop\Нова папка\cstrike\core\schema.h(12,8): warning C4099: 'CSchemaClassInfo': type name first seen using 'class' now seen using 'struct'
+  (compiling source file 'core/hooks.cpp')
+      C:\Users\kamis\Desktop\Нова папка\cstrike\sdk\interfaces\ischemasystem.h(17,7):
+      see declaration of 'CSchemaClassInfo'
+  
+C:\Users\kamis\Desktop\Нова папка\cstrike\utilities\detourhook.h(25,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'core/hooks.cpp')
+      C:\Users\kamis\Desktop\Нова папка\cstrike\utilities\detourhook.h(25,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\kamis\Desktop\Нова папка\cstrike\core\hooks.h(123,54):
+          see reference to class template instantiation 'CBaseHookObject<float (__cdecl *)(void *)>' being compiled
+          C:\Users\kamis\Desktop\Нова папка\cstrike\utilities\detourhook.h(20,10):
+          while compiling class template member function 'bool CBaseHookObject<float (__cdecl *)(void *)>::Replace(void)'
+              C:\Users\kamis\Desktop\Нова папка\cstrike\utilities\detourhook.h(17,9):
+              see the first reference to 'CBaseHookObject<float (__cdecl *)(void *)>::Replace' in 'CBaseHookObject<float (__cdecl *)(void *)>::Create'
+              C:\Users\kamis\Desktop\Нова папка\cstrike\core\hooks.cpp(136,2):
+              see the first reference to 'CBaseHookObject<float (__cdecl *)(void *)>::Create' in 'H::Setup'
+  
+freetype_debug.lib(ftbase.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftbase.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftinit.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftinit.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftsynth.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftsynth.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftsystem.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftsystem.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(autofit.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(autofit.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(truetype.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(truetype.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(type1.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(type1.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(cff.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(cff.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(type1cid.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(type1cid.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(pfr.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(pfr.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(type42.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(type42.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(winfnt.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(winfnt.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(pcf.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(pcf.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(psaux.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(psaux.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(psnames.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(psnames.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(pshinter.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(pshinter.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(raster.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(raster.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(sfnt.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(sfnt.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(smooth.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(smooth.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(bdf.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(bdf.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftbitmap.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftbitmap.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftgzip.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftgzip.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftlzw.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftlzw.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+freetype_debug.lib(ftdebug.obj) : warning LNK4099: PDB 'freetyped.pdb' was not found with 'freetype_debug.lib(ftdebug.obj)' or at 'C:\Users\kamis\Desktop\Нова папка\build\Debug\freetyped.pdb'; linking object as if no debug info
+  cstrike.vcxproj -> C:\Users\kamis\Desktop\Нова папка\build\Debug\cstrike.dll
